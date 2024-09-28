@@ -1,0 +1,51 @@
+body {
+    color: white;
+    background-image: linear-gradient(to top, #7c435f, #3f3463, #2f305c);
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    border-bottom: solid 2px rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(224, 255, 113);
+    font-family: FreeMono, monospace;
+}
+
+.chamada {
+    background-image: linear-gradient(to top, #ff3f9f, #8965ff, #3d40ff);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 195px;
+    border-radius: 25px;
+    
+}
+
+.categoria-audios {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
